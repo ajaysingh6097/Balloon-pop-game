@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
-    base: 'Balloon-pop-game',
+    base: '/Balloon-pop-game/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
